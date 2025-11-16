@@ -41,6 +41,8 @@ def get_author_dict():
         "Andreas Geiger": "https://www.cvlibs.net/",
         "Bernhard Jaeger": "https://kait0.github.io/",
         "Daniel Dauner": "https://danieldauner.github.io/",
+        "Micha Fauth": "https://de.linkedin.com/in/micha-fauth-b4492a22b",
+        "Maximilian Igl": "https://maximilianigl.com/",
         }
 
 def generate_person_html(persons, connection=", ", make_bold=True, make_bold_name='Long Nguyen', add_links=True):
