@@ -193,6 +193,7 @@ def get_uni_html():
 def get_index_html():
     pub = get_publications_html()
     talks = get_talks_html()
+    uni = get_uni_html()
     name, bio_text, footer = get_personal_data()
     s = f"""
     <!doctype html>
@@ -239,6 +240,12 @@ def get_index_html():
                     <div class="col-sm-12" style="">
                         <h4>Talks</h4>
                         {talks}
+                    </div>
+                </div>
+                <div class="row" style="margin-top: 3em;">
+                    <div class="col-sm-12" style="">
+                        <h4>University Projects</h4>
+                        {uni}
                     </div>
                 </div>
                 <div class="row" style="margin-top: 3em; margin-bottom: 1em;">
